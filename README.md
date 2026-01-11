@@ -12,11 +12,11 @@ No caso de que o xogador non poda velos pero eles podan ver ao xogador, persegui
 
 Lista de cambios:
 
--Engadido un script *WeepingAI* o cal provoca que os NPC se agochen cando están sós, non se movan cando alguen os observa e vaian a polo xogador cando este non os está a mirar.
--Ampliado o campo visual do xogador de 60 a 80.
--Modificado o comportamento de *CleverHide* para que non se poida escoller duas veces seguidas o mesmo escondite.
--Engadido un prefab *WeepingRobber* que implementa o script *WeepingAI*.
--Creada unha nova escena chamada *Weeping* con 4 NPC pertencentes ao prefab *WeepingRobber*.
+- Engadido un script *WeepingAI* o cal provoca que os NPC se agochen cando están sós, non se movan cando alguen os observa e vaian a polo xogador cando este non os está a mirar.
+- Ampliado o campo visual do xogador de 60 a 80.
+- Modificado o comportamento de *CleverHide* para que non se poida escoller duas veces seguidas o mesmo escondite.
+- Engadido un prefab *WeepingRobber* que implementa o script *WeepingAI*.
+- Creada unha nova escena chamada *Weeping* con 4 NPC pertencentes ao prefab *WeepingRobber*.
 
 [Ligazón](https://github.com/Xabi66/IAAutonomouslyMovingAgents/blob/main/Assets/Scripts/WeepingAI.cs)
 
