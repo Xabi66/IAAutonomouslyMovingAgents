@@ -1,27 +1,4 @@
-# Descrición
-
-Escena Weeping no que os NPC agochanse cada 10s nun novo escondite cando non ven ao xogador nin este os ve a el. 
-Se o xogador pode velos, estes quedanse estáticos. 
-No caso de que o xogador non poda velos pero eles podan ver ao xogador, perseguirano ate alcanzalo.
-
-# Título principal
-
-**Weeping Scene**
-
-## Subtítulo
-
-Lista de cambios:
-
--Engadido un script *WeepingAI* o cal provoca que os NPC se agochen cando están sós, non se movan cando alguen os observa e vaian a polo xogador cando este non os está a mirar .
--Modificado o comportamento de *CleverHide* para que non se poida escoller duas veces seguidas o mesmo escondite.
--Engadido un prefab *WeepingRobber* que implementa o script *WeepingAI*.
--Creada unha nova escena chamada *Weeping* con 4 NPC pertencentes ao prefab *WeepingRobber*.
-
-[Ligazón](https://exemplo.com)
-
-
-```csharp
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -209,5 +186,3 @@ public class WeepingAI : MonoBehaviour
     }
 
 }
-
-```
